@@ -79,7 +79,7 @@ function App() {
 
   useEffect(() => {
     fetchPokemon(state);
-  }, []);
+  }, [state]);
 
 
   return (
