@@ -101,7 +101,7 @@ function App() {
         <p>
           {pokemon?.id ?? "No Pokemon ID"}
         </p>
-        <p><a href='https://github.com/rodrilv/Pokemon-React-App'>GitHub Repo ;)</a></p>
+        <p><a href='https://github.com/rodrilv/Pokemon-PWA'>GitHub Repo ;)</a></p>
 
         <div className='flex-container'>
           <button onClick={() => fetchPokemon((BackPokemon()))} className='button'>Back</button>
